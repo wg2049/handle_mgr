@@ -7,9 +7,9 @@ sys.path.append(BASE_DIR)
 from core import main
 
 
-conf = BASE_DIR+"/conf/mgr.conf"
 
 if __name__ == "__main__":
+    conf = BASE_DIR + "/conf/mgr.conf"
     status = 0
     action={
         1:'Check the MGR status',
